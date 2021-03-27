@@ -6,7 +6,7 @@
 /*   By: sanghpar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/22 19:56:05 by sanghpar          #+#    #+#             */
-/*   Updated: 2021/03/22 20:35:23 by sanghpar         ###   ########.fr       */
+/*   Updated: 2021/03/27 23:40:17 by sanghpar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ bool	check_duplicate(int b, t_stack *st)
 	return (true);
 }
 
-void set_struct(t_stack *st, int pin, int k)
+void	set_struct(t_stack *st, int pin, int k)
 {
 	if (k == 1)
 	{
