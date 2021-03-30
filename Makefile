@@ -49,8 +49,8 @@ all : $(NAME)
 
 $(NAME) : $(OBJS) $(C_OBJS)
 	$(MAKE) -C ./lib/libft
-	$(CC) $(CFLAGS) -g -o push_swap $(SRCS) $(LIBFT_FLAGS)
-	$(CC) $(CFLAGS) -g -o checker $(C_SRCS) $(LIBFT_FLAGS)
+	$(CC) $(CFLAGS) -o push_swap $(SRCS) $(LIBFT_FLAGS)
+	$(CC) $(CFLAGS) -o checker $(C_SRCS) $(LIBFT_FLAGS)
 	
 clean :
 	$(MAKE) clean -C ./lib/libft
