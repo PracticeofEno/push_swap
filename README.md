@@ -41,4 +41,10 @@
 ![설명3](https://user-images.githubusercontent.com/57505385/201691673-bacc0f46-2e6e-4a0b-a985-57ce8995fc6e.png)
 ------
 
-## 풀이방법
+## 구현방법
+1. 숫자Set들의 크기가 3보다 크다면 해당 스택을 한바퀴 rotate 시키면서 다른 스택으로 중앙값(숫자Set에서 딱 중앙에 위치하는 수)보다 큰 수를 넘긴다
+-> 숫자 0~100을 기준으로 정렬된 모습
+![디바이드모습](https://user-images.githubusercontent.com/57505385/201852997-1673a606-69db-4fc0-8417-96de6ba718e8.png)
+2. 넘겨진 숫자Set의 크기가 3 이하라면 명령어들을 이용해서 A스택 뒷부분에 숫자를 이동시킨다
+-> 0~2가 정렬이 끝난 모습
+![02소팅](https://user-images.githubusercontent.com/57505385/201853004-44cc2fb1-1b4c-4215-b174-dbb8ad28976f.png)
