@@ -34,6 +34,13 @@
 - checker는 해당 명령어들을 수행한 후 스택A가 정렬되어있는지 확인합니다
 - 정렬되어있으면 OK, 그렇지 않다면 Error를 출력합니다  
 
+## 실행 방법
+```
+git clone ~~
+make
+./push_swap "{number set}" 
+```
+
 ## 결과
 - 효율성 (명령어 카운트)  
 ![2022-11-15 오후 5-04-50](https://user-images.githubusercontent.com/57505385/201863637-e66dc4f8-788b-4787-933b-562a027a998a.png)
